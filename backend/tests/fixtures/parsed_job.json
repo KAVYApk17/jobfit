@@ -1,0 +1,12 @@
+{
+  "title": "AI Engineer",
+  "min_years": 4,
+  "required_skills": ["Python", "FastAPI", "RAG", "Vector databases", "Docker", "Kubernetes", "LLM evaluation", "CI/CD"],
+  "preferred_skills": ["LangGraph", "React"],
+  "responsibilities": [
+    "Build LLM-powered product features.",
+    "Design RAG pipelines.",
+    "Build FastAPI services.",
+    "Own evaluation of model quality."
+  ]
+}

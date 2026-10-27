@@ -1,0 +1,13 @@
+Extract structured data from the resume below. The result feeds a job-fit scorer, so accuracy matters more than completeness: a skill or number that is not in the resume would mislead the candidate.
+
+Rules:
+- Use only information written in the resume. Do not infer or add skills, employers, dates or numbers.
+- skills: every technical skill, tool, language, framework and platform mentioned anywhere (skills section, bullets, projects), each listed once in its common written form, for example "PostgreSQL" or "FastAPI".
+- experience: one entry per role, most recent first. Copy each bullet verbatim as one string. Write dates as "YYYY-MM" when the month is known, "YYYY" otherwise, and "present" for a current role. Put projects that are not jobs here too, with company set to "Project".
+- total_years: years of professional experience, summed across jobs without double-counting overlaps. Do not count education or projects. Use 0 if there is none.
+- education: one entry per degree or certificate program.
+- name: the candidate's name, or null if it is not written.
+
+<resume>
+{resume_text}
+</resume>

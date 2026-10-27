@@ -1,0 +1,16 @@
+Extract structured data from the job description below. The result is compared against a candidate's resume, so list skills in short canonical form that a resume would also use.
+
+Rules:
+- Use only what the description says.
+- required_skills: skills, tools and technologies the job requires or lists as must-have. Short names such as "Docker", "CI/CD" or "LLM evaluation", each listed once.
+- preferred_skills: skills marked nice to have, preferred, bonus or plus. A skill appears in only one of the two lists.
+- min_years: the minimum years of experience asked for (for example "4+ years" gives 4), or null if none is stated.
+- responsibilities: what the person will do, one short sentence each.
+- title: the job title as written in the description, or the title given below if the description has none.
+
+Job title given by the user: {title}
+Company: {company}
+
+<job_description>
+{jd_text}
+</job_description>

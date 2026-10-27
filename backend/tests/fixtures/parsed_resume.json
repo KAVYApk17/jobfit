@@ -1,0 +1,27 @@
+{
+  "name": "Sample Candidate",
+  "total_years": 5,
+  "skills": ["Python", "FastAPI", "RAG", "FAISS", "PostgreSQL", "Pytest", "Azure OpenAI", "Sentence Transformers"],
+  "experience": [
+    {
+      "company": "Example Corp",
+      "title": "Software Engineer",
+      "start": "2021-06",
+      "end": "present",
+      "bullets": [
+        "Engineered an automated regression testing framework leveraging Gen AI and Azure OpenAI, integrating RAG pipelines with FAISS and Sentence Transformers, which reduced overall testing time by 50%.",
+        "Built FastAPI services backed by PostgreSQL for internal test reporting."
+      ]
+    },
+    {
+      "company": "Project",
+      "title": "Resume chatbot",
+      "start": "2024",
+      "end": "2024",
+      "bullets": ["Built a retrieval chatbot over PDF documents with Python and FAISS."]
+    }
+  ],
+  "education": [
+    {"institution": "Sample University", "degree": "B.Tech", "field": "Computer Science", "end": "2020"}
+  ]
+}
